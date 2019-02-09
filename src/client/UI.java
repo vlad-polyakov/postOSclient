@@ -13,6 +13,7 @@ public class UI {
     private TextField forReq = new TextField();
     private Button request = new Button("Send");
     private Label methodsLabel = new Label("HTTP Methods");
+    private Connector connector = new Connector();
 
     ToggleGroup group = new ToggleGroup();
     private RadioButton get = new RadioButton("GET");
@@ -33,6 +34,7 @@ public class UI {
 
     public UI(){
         BorderPane root = new BorderPane();
+        System.out.println(connector.sendRequest("https://webgyry.info/http-zapros-metodom-get",80,"GET / HTTP/1.0"));
         VBox bodyReq = new VBox();
         bodyReq.setSpacing(10);
         HBox urlBody = new HBox();
