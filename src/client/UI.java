@@ -5,7 +5,6 @@ import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class UI {
@@ -30,6 +29,9 @@ public class UI {
     private Label protocolLabel = new Label("HTTP Protocol");
     private TextArea protocol = new TextArea();
 
+    private  ScrollPane scrollForBody = new ScrollPane();
+    private ScrollPane scrollForProtocol = new ScrollPane();
+
     public UI(){
         BorderPane root = new BorderPane();
         System.out.println(connector.sendRequest("https://webgyry.info/http-zapros-metodom-get",80,"GET / HTTP/1.0"));
@@ -37,9 +39,7 @@ public class UI {
         bodyReq.setSpacing(10);
         HBox urlBody = new HBox();
         urlBody.setSpacing(15);
-        ScrollPane scrollForBody = new ScrollPane();
         scrollForBody.setContent(body);
-        ScrollPane scrollForProtocol = new ScrollPane();
         scrollForProtocol.setContent(protocol);
         get.setToggleGroup(group);
         post.setToggleGroup(group);
@@ -53,4 +53,8 @@ public class UI {
         stage.show();
     }
 
+    public String getRequest(){
+        String request="";
+        return request;
+    }
 }
