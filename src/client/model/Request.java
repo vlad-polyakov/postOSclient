@@ -1,6 +1,4 @@
-package client;
-
-import java.util.ArrayList;
+package client.model;
 
 public class Request {
 

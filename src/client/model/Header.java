@@ -1,4 +1,4 @@
-package client;
+package client.model;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,13 +16,50 @@ public class Header {
     private String getUserAgent;
     private String getContentEncoding;
     private String getHost;
-    private String getAcceptlanguage;
+    private String getAcceptLanguage;
     private String getAcceptEncoding;
     private String getConnection;
     private String getCookie;
     private String getAccept;
 
-    private Map<String,String> header = new HashMap<>();
+    private Map<String, String> header = new HashMap<>();
+
+    public void setHeader(String s1, String s2) {
+        switch (s1) {
+            case USER_AGENT:
+                setGetUserAgent(s2);
+                header.put(s1, s2);
+                break;
+            case CONTENT_ENCODING:
+                setGetContentEncoding(s2);
+                header.put(s1, s2);
+                break;
+            case HOST:
+                setGetHost(s2);
+                header.put(s1, s2);
+                break;
+            case ACCEPT_lANGUAGE:
+                setGetAcceptLanguage(s2);
+                header.put(s1, s2);
+                break;
+            case ACCEPT_ENCODING:
+                setGetAcceptEncoding(s2);
+                header.put(s1, s2);
+                break;
+            case CONNECTION:
+                setGetConnection(s2);
+                header.put(s1, s2);
+                break;
+            case COOKIE:
+                setGetCookie(s2);
+                header.put(s1, s2);
+                break;
+            case ACCEPT:
+                setGetAccept(s2);
+                header.put(s1, s2);
+                break;
+        }
+    }
 
     public String getGetUserAgent() {
         return getUserAgent;
@@ -48,12 +85,12 @@ public class Header {
         this.getHost = getHost;
     }
 
-    public String getGetAcceptlanguage() {
-        return getAcceptlanguage;
+    public String getGetAcceptLanguage() {
+        return getAcceptLanguage;
     }
 
-    public void setGetAcceptlanguage(String getAcceptlanguage) {
-        this.getAcceptlanguage = getAcceptlanguage;
+    public void setGetAcceptLanguage(String getAcceptlanguage) {
+        this.getAcceptLanguage = getAcceptlanguage;
     }
 
     public String getGetAcceptEncoding() {
@@ -92,7 +129,4 @@ public class Header {
         return header;
     }
 
-    public void setHeader(Map<String, String> header) {
-        this.header = header;
-    }
 }
