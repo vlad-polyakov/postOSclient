@@ -1,9 +1,7 @@
-package client;
+package client.main;
 
+import client.view.UI;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -11,6 +9,9 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
 
         setUI();
+        //Socket socket = new Socket("redbook.minpriroda.gov.by", 80);
+
+        //System.out.println(socket.isConnected());
     }
 
     public void setUI(){
