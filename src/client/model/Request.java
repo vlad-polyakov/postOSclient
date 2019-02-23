@@ -4,7 +4,7 @@ public class Request {
 
     private String method;
     private String url;
-    private Headers header;
+    private Header header;
 
     public String getMethod() {
         return method;
@@ -22,11 +22,11 @@ public class Request {
         this.url = url;
     }
 
-    public Headers getHeader() {
+    public Header getHeader() {
         return header;
     }
 
-    public void setHeader(Headers header) {
+    public void setHeader(Header header) {
         this.header = header;
     }
 }

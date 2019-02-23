@@ -1,6 +1,9 @@
 package client.view;
 
+import client.HttpMethod;
+import client.controller.Controller;
 import client.service.Connector;
+
 import client.model.Header;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -10,6 +13,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class UI {
+    private HttpMethod httpMethod = new HttpMethod();
     private Label httpReq = new Label("HTTP Request");
     private Label urlLabel = new Label("URL");
     private TextField forReq = new TextField();
@@ -17,7 +21,7 @@ public class UI {
     private Label methodsLabel = new Label("HTTP Methods");
     private Connector connector = new Connector();
     private Header headerr = new Header();
-
+    private Controller controller = new Controller(this);
     ToggleGroup group = new ToggleGroup();
     private RadioButton get = new RadioButton("GET");
     private RadioButton post = new RadioButton("POST");
@@ -37,8 +41,6 @@ public class UI {
 
     public UI(){
         BorderPane root = new BorderPane();
-       // System.out.println(connector.sendRequest("https://webgyry.info/http-zapros-metodom-get",80,"GET / HTTP/1.0"));
-        connector.sendRequest("redbook.minpriroda.gov.by",80,"GET / HTTP/1.0");
         VBox bodyReq = new VBox();
         bodyReq.setSpacing(10);
         HBox urlBody = new HBox();
@@ -49,8 +51,12 @@ public class UI {
         post.setToggleGroup(group);
         head.setToggleGroup(group);
         request.setOnAction(event -> {
-            getInfo();
-
+            String method;
+            if(get.isSelected()) method = httpMethod.GET();
+            else if(post.isSelected()) method = httpMethod.POST();
+            else if(head.isSelected()) method = httpMethod.HEAD();
+            else return;
+            controller.sendRequest(forReq.getText(),method);
         });
         urlBody.getChildren().addAll(urlLabel, forReq, request);
         bodyReq.getChildren().addAll(httpReq, urlBody, methodsLabel, get, post, head, headerLabel, header, bodyLabel, scrollForBody, responseLabel, scrollForResponse);
@@ -69,11 +75,6 @@ public class UI {
         editHeaders(arrs);
     }
 
-    public String editUrl(String url){
-        String finalUrl="";
-
-        return finalUrl;
-    }
 
     public boolean editHeaders(String[] arr){
         for (String str: arr){
@@ -92,5 +93,8 @@ public class UI {
     public String getRequest(){
         String request="";
         return request;
+    }
+    public void setResponseInfo(String responseStr){
+        response.setText(responseStr);
     }
 }
