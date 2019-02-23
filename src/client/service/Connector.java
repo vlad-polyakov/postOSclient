@@ -1,21 +1,21 @@
-package client;
+package client.service;
 
 import java.io.*;
+import java.net.InetAddress;
 import java.net.Socket;
 
 public class Connector {
     private Socket socket;
     private PrintWriter writer;
     private BufferedReader reader;
+    private final int port = 80;
 
-    public String sendRequest(String host, int port, String request)  {
+    public String sendRequest(String host, String request)  {
         try {
-            socket = new Socket(host, port);
+            socket = new Socket(InetAddress.getByName(host),port);
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
-
             writer.println(request);
-            writer.flush();
             StringBuilder response = new StringBuilder();
             String str;
             while ((str = reader.readLine()) != null) {
