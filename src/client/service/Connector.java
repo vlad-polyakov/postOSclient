@@ -1,4 +1,4 @@
-package client.service;
+package client;
 
 import java.io.*;
 import java.net.Socket;
@@ -25,7 +25,6 @@ public class Connector {
             reader.close();
             socket.close();
 
-            System.out.println(response);
             return response.toString();
         }
         catch (IOException e){

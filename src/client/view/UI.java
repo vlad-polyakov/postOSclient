@@ -37,7 +37,8 @@ public class UI {
 
     public UI(){
         BorderPane root = new BorderPane();
-        System.out.println(connector.sendRequest("https://webgyry.info/http-zapros-metodom-get",80,"GET / HTTP/1.0"));
+       // System.out.println(connector.sendRequest("https://webgyry.info/http-zapros-metodom-get",80,"GET / HTTP/1.0"));
+        connector.sendRequest("redbook.minpriroda.gov.by",80,"GET / HTTP/1.0");
         VBox bodyReq = new VBox();
         bodyReq.setSpacing(10);
         HBox urlBody = new HBox();
