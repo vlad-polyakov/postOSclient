@@ -1,17 +1,14 @@
-package client.main;
+package main;
 
-import client.view.UI;
 import javafx.application.Application;
 import javafx.stage.Stage;
+import view.UI;
 
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
         setUI();
-        //Socket socket = new Socket("redbook.minpriroda.gov.by", 80);
-
-        //System.out.println(socket.isConnected());
     }
 
     public void setUI(){

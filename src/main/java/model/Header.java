@@ -1,4 +1,4 @@
-package client.model;
+package model;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,7 +22,7 @@ public class Header {
     private String getCookie;
     private String getAccept;
 
-    private Map<String, String> header = new HashMap<>();
+    private Map<String, String> header = new HashMap<String, String>();
 
     public void setHeader(String s1, String s2) {
         switch (s1) {
