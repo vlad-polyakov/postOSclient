@@ -1,4 +1,4 @@
-package client.model;
+package model;
 
 public class Request {
 

@@ -1,4 +1,4 @@
-package client.service;
+package service;
 
 public class TransformURL {
     public String editHost(String host){

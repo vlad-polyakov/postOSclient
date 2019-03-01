@@ -1,4 +1,4 @@
-package client.service;
+package service;
 
 import java.io.*;
 import java.net.InetAddress;
@@ -16,6 +16,9 @@ public class Connector {
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
             writer.println(request);
+            writer.print("Host: ");
+            writer.println(host);
+            writer.println("");
             StringBuilder response = new StringBuilder();
             String str;
             while ((str = reader.readLine()) != null) {

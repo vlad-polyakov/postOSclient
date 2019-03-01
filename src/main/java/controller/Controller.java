@@ -1,8 +1,9 @@
-package client.controller;
+package controller;
 
-import client.service.Connector;
-import client.service.TransformURL;
-import client.view.UI;
+
+import service.Connector;
+import service.TransformURL;
+import view.UI;
 
 public class Controller {
     private UI ui;

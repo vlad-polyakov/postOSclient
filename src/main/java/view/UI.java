@@ -1,16 +1,16 @@
-package client.view;
+package view;
 
-import client.HttpMethod;
-import client.controller.Controller;
-import client.service.Connector;
 
-import client.model.Header;
+import controller.Controller;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import model.Header;
+import service.Connector;
+import service.HttpMethod;
 
 public class UI {
     private HttpMethod httpMethod = new HttpMethod();
