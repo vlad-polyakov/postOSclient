@@ -20,7 +20,7 @@ public class UI {
     private Button request = new Button("Send");
     private Label methodsLabel = new Label("HTTP Methods");
     private Connector connector = new Connector();
-    private Header headerr = new Header();
+    //private Header headerr = new Header();
     private Controller controller = new Controller(this);
     ToggleGroup group = new ToggleGroup();
     private RadioButton get = new RadioButton("GET");
@@ -80,7 +80,7 @@ public class UI {
         for (String str: arr){
             String[] pair;
             pair = str.split(":");
-            headerr.setHeader(pair[0],pair[1]);
+            //headerr.setHeader(pair[0],pair[1]);
         }
         return true;
     }
