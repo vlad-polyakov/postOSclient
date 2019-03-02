@@ -13,120 +13,30 @@ public class Header {
     private static final String COOKIE = "Cookie";
     private static final String ACCEPT = "Accept";
 
-    private String getUserAgent;
-    private String getContentEncoding;
-    private String getHost;
-    private String getAcceptLanguage;
-    private String getAcceptEncoding;
-    private String getConnection;
-    private String getCookie;
-    private String getAccept;
+    private HashMap<String, String> header;
 
-    private Map<String, String> header = new HashMap<String, String>();
-
-    public void setHeader(String s1, String s2) {
-        switch (s1) {
-            case USER_AGENT:
-                setGetUserAgent(s2);
-                header.put(s1, s2);
-                break;
-            case CONTENT_ENCODING:
-                setGetContentEncoding(s2);
-                header.put(s1, s2);
-                break;
-            case HOST:
-                setGetHost(s2);
-                header.put(s1, s2);
-                break;
-            case ACCEPT_lANGUAGE:
-                setGetAcceptLanguage(s2);
-                header.put(s1, s2);
-                break;
-            case ACCEPT_ENCODING:
-                setGetAcceptEncoding(s2);
-                header.put(s1, s2);
-                break;
-            case CONNECTION:
-                setGetConnection(s2);
-                header.put(s1, s2);
-                break;
-            case COOKIE:
-                setGetCookie(s2);
-                header.put(s1, s2);
-                break;
-            case ACCEPT:
-                setGetAccept(s2);
-                header.put(s1, s2);
-                break;
-        }
+    Header(){
+        header = new HashMap<String, String>();
+        header.put(USER_AGENT,"");
+        header.put(CONTENT_ENCODING,"");
+        header.put(HOST,"");
+        header.put(ACCEPT_lANGUAGE,"");
+        header.put(ACCEPT_ENCODING,"");
+        header.put(CONNECTION,"");
+        header.put(ACCEPT,"");
+        header.put(COOKIE,"");
     }
 
-    public String getGetUserAgent() {
-        return getUserAgent;
+    public void addHeader(String key, String value) {
+        getAllHeaders().put(key, value);
     }
 
-    public void setGetUserAgent(String getUserAgent) {
-        this.getUserAgent = getUserAgent;
+    public String getPartOfHeader(String key) {
+        return getAllHeaders().get(key);
     }
 
-    public String getGetContentEncoding() {
-        return getContentEncoding;
-    }
-
-    public void setGetContentEncoding(String getContentEncoding) {
-        this.getContentEncoding = getContentEncoding;
-    }
-
-    public String getGetHost() {
-        return getHost;
-    }
-
-    public void setGetHost(String getHost) {
-        this.getHost = getHost;
-    }
-
-    public String getGetAcceptLanguage() {
-        return getAcceptLanguage;
-    }
-
-    public void setGetAcceptLanguage(String getAcceptlanguage) {
-        this.getAcceptLanguage = getAcceptlanguage;
-    }
-
-    public String getGetAcceptEncoding() {
-        return getAcceptEncoding;
-    }
-
-    public void setGetAcceptEncoding(String getAcceptEncoding) {
-        this.getAcceptEncoding = getAcceptEncoding;
-    }
-
-    public String getGetConnection() {
-        return getConnection;
-    }
-
-    public void setGetConnection(String getConnection) {
-        this.getConnection = getConnection;
-    }
-
-    public String getGetCookie() {
-        return getCookie;
-    }
-
-    public void setGetCookie(String getCookie) {
-        this.getCookie = getCookie;
-    }
-
-    public String getGetAccept() {
-        return getAccept;
-    }
-
-    public void setGetAccept(String getAccept) {
-        this.getAccept = getAccept;
-    }
-
-    public Map<String, String> getHeader() {
-        return header;
+    public HashMap<String, String> getAllHeaders() {
+        return  header;
     }
 
 }

@@ -2,22 +2,26 @@ package model;
 
 public class Response {
 
-    private String header;
+    private int statusCode;
+    private Header header;
     private String body;
 
-    public String getHeader() {
-        return header;
+    public  Response(int statusCode, String body, Header header){
+        this.body = body;
+        this.header = header;
+        this.statusCode = statusCode;
     }
 
-    public void setHeader(String header) {
-        this.header = header + "\r\n";
+    public boolean isSuccess(){
+        return true;
+    }
+
+    public int getStatusCode() {
+        return statusCode;
     }
 
     public String getBody() {
         return body;
     }
 
-    public void setBody(String body) {
-        this.body = body;
-    }
 }
