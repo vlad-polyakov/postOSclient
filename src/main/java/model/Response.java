@@ -12,7 +12,7 @@ public class Response {
         this.statusCode = statusCode;
     }
 
-    public boolean isSuccess(){
+    public boolean isSuccess(int code){
         return true;
     }
 
