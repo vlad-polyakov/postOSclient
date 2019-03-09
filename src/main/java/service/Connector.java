@@ -1,5 +1,7 @@
 package service;
 
+import controller.Controller;
+
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
@@ -9,6 +11,7 @@ public class Connector {
     private PrintWriter writer;
     private BufferedReader reader;
     private final int port = 80;
+
 
     public String sendRequest(String host, String request)  {
         try {

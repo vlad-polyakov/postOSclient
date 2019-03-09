@@ -19,7 +19,7 @@ public class HttpStatus {
     private static final String HTTP_NOT_SUPPORTED = "505 HTTP Version Not Supported\n";
     private static HashMap<Integer, String> httpStatusCodes;
 
-    HttpStatus(){
+    public HttpStatus(){
         httpStatusCodes = new HashMap<Integer, String>();
         httpStatusCodes.put(200, HTTP_OK);
         httpStatusCodes.put(301, HTTP_MOVED_PERMANENTLY);
@@ -36,7 +36,7 @@ public class HttpStatus {
         httpStatusCodes.put(505, HTTP_NOT_SUPPORTED);
     }
 
-    public static HashMap<Integer, String> getHttpStatusCodes() {
+    public HashMap<Integer, String> getHttpStatusCodes() {
         return httpStatusCodes;
     }
 

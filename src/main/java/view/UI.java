@@ -2,6 +2,7 @@ package view;
 
 
 import controller.Controller;
+import javafx.concurrent.Task;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
@@ -39,7 +40,8 @@ public class UI {
     private  ScrollPane scrollForBody = new ScrollPane();
     private ScrollPane scrollForResponse = new ScrollPane();
 
-    public UI(){
+    public UI(){}
+    public BorderPane createUI(){
         BorderPane root = new BorderPane();
         VBox bodyReq = new VBox();
         bodyReq.setSpacing(10);
@@ -56,15 +58,13 @@ public class UI {
             else if(post.isSelected()) method = httpMethod.POST();
             else if(head.isSelected()) method = httpMethod.HEAD();
             else return;
+            //new Thread(()->{controller.sendRequest(forReq.getText(),method);}).start();
             controller.sendRequest(forReq.getText(),method);
         });
         urlBody.getChildren().addAll(urlLabel, forReq, request);
         bodyReq.getChildren().addAll(httpReq, urlBody, methodsLabel, get, post, head, headerLabel, header, bodyLabel, scrollForBody, responseLabel, scrollForResponse);
         root.setTop(bodyReq);
-        Stage stage = new Stage();
-        stage.setTitle("HTTP client");
-        stage.setScene(new Scene(root, 950, 900));
-        stage.show();
+        return root;
     }
 
     public void getInfo(){
@@ -95,6 +95,13 @@ public class UI {
         return request;
     }
     public void setResponseInfo(String responseStr){
-        response.setText(responseStr);
+         response.setText(responseStr);
+
+    }
+    public void showAlert(){
+        Alert warn = new Alert(Alert.AlertType.INFORMATION);
+        warn.setTitle("Warning!");
+        warn.setContentText("Incorrect format of url");
+        warn.showAndWait();
     }
 }
