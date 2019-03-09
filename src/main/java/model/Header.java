@@ -14,8 +14,9 @@ public class Header {
     private static final String ACCEPT = "Accept";
 
     private HashMap<String, String> header;
+    private String headerForRequest;
 
-    Header(){
+    public Header(){
         header = new HashMap<String, String>();
         header.put(USER_AGENT,"");
         header.put(CONTENT_ENCODING,"");
@@ -27,16 +28,21 @@ public class Header {
         header.put(COOKIE,"");
     }
 
-    public void addHeader(String key, String value) {
-        getAllHeaders().put(key, value);
-    }
-
-    public String getPartOfHeader(String key) {
-        return getAllHeaders().get(key);
+    public  String fillingHeaders(){
+        for (String key: header.keySet()){
+            if (header.get(key)!=null){
+                headerForRequest += key + ": " + header.get(key) + "\n";
+            }
+        }
+        return headerForRequest;
     }
 
     public HashMap<String, String> getAllHeaders() {
         return  header;
     }
 
+    public boolean changeValueOfHeader(String header, String value){
+        this.header.put(header,value);
+        return true;
+    }
 }

@@ -21,7 +21,7 @@ public class UI {
     private Button request = new Button("Send");
     private Label methodsLabel = new Label("HTTP Methods");
     private Connector connector = new Connector();
-    //private Header headerr = new Header();
+    private Header headerr = new Header();
     private Controller controller = new Controller(this);
     ToggleGroup group = new ToggleGroup();
     private RadioButton get = new RadioButton("GET");
@@ -44,6 +44,7 @@ public class UI {
     public BorderPane createUI(){
         BorderPane root = new BorderPane();
         VBox bodyReq = new VBox();
+        //header.setText("Host:");
         bodyReq.setSpacing(10);
         HBox urlBody = new HBox();
         urlBody.setSpacing(15);
@@ -67,10 +68,11 @@ public class UI {
         return root;
     }
 
-    public void getInfo(){
-        String strUrl = forReq.getText();
+    public  Header getHeaderr(){
+        return  this.headerr;
+    }
+    public void getHeaders(){
         String strHeader = header.getText();
-        String strbody = body.getText();
         String[] arrs = concatHeader(strHeader);
         editHeaders(arrs);
     }

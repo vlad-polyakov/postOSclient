@@ -12,15 +12,14 @@ public class Connector {
     private BufferedReader reader;
     private final int port = 80;
 
-
-    public String sendRequest(String host, String request)  {
+    public String sendRequest(String host, String request, String headers)  {
         try {
             socket = new Socket(InetAddress.getByName(host),port);
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
             writer.println(request);
-            writer.print("Host: ");
-            writer.println(host);
+
+            writer.println(headers);
             writer.println("");
             StringBuilder response = new StringBuilder();
             String str;
