@@ -32,7 +32,7 @@ public class Controller {
     }
 
     public boolean addHost(String url) {
-        ui.getHeaderr().getAllHeaders().put("Host",transformURL.editHost(url));
+        ui.getHeaderr().changeValueOfHeader("Host",transformURL.editHost(url));
         return true;
     }
 }
