@@ -44,7 +44,7 @@ public class UI {
     public BorderPane createUI(){
         BorderPane root = new BorderPane();
         VBox bodyReq = new VBox();
-        //header.setText("Host:");
+        header.setText("Connection: close");
         bodyReq.setSpacing(10);
         HBox urlBody = new HBox();
         urlBody.setSpacing(15);
@@ -55,6 +55,7 @@ public class UI {
         head.setToggleGroup(group);
         request.setOnAction(event -> {
             String method;
+            getHeaders();
             if(get.isSelected()) method = httpMethod.GET();
             else if(post.isSelected()) method = httpMethod.POST();
             else if(head.isSelected()) method = httpMethod.HEAD();
@@ -71,6 +72,7 @@ public class UI {
     public  Header getHeaderr(){
         return  this.headerr;
     }
+
     public void getHeaders(){
         String strHeader = header.getText();
         String[] arrs = concatHeader(strHeader);
@@ -82,7 +84,7 @@ public class UI {
         for (String str: arr){
             String[] pair;
             pair = str.split(":");
-            //headerr.setHeader(pair[0],pair[1]);
+            headerr.changeValueOfHeader(pair[0],pair[1]);
         }
         return true;
     }
@@ -92,10 +94,7 @@ public class UI {
         return headers;
     }
 
-    public String getRequest(){
-        String request="";
-        return request;
-    }
+
     public void setResponseInfo(String responseStr){
          response.setText(responseStr);
 
