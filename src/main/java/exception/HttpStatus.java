@@ -4,19 +4,19 @@ import java.util.HashMap;
 
 public class HttpStatus {
 
-    private static final String HTTP_OK = "200 OK\n";
-    private static final String HTTP_MOVED_PERMANENTLY = "301 Moved Permanently\n" ;
-    private static final String HTTP_MOVED_TEMPORARILY = "302 Found, Moved Temporarily\n";
-    private static final String HTTP_BAD_REQUEST = "400 Bad Request\n";
-    private static final String HTTP_UNAUTHORIZED = "401 Unauthorized\n";
-    private static final String HTTP_FORBIDDEN = "403 Forbidden\n";
-    private static final String HTTP_NOT_FOUND = "404 Not Found\n";
-    private static final String HTTP_NOT_ACCEPTABLE = "406 Not Acceptable\n";
-    private static final String HTTP_TIMEOUT = "408 Request Timeout\n";
-    private static final String HTTP_INTERNAL_ERROR = "500 Internal Server Error\n";
-    private static final String HTTP_NOT_IMPLEMENTED = "501 Not Implemented\n";
-    private static final String HTTP_UNAVAILABLE = "503 Service Unavailable\n";
-    private static final String HTTP_NOT_SUPPORTED = "505 HTTP Version Not Supported\n";
+    public static final String HTTP_OK = "200 OK\n";
+    public static final String HTTP_MOVED_PERMANENTLY = "301 Moved Permanently\n" ;
+    public static final String HTTP_MOVED_TEMPORARILY = "302 Found, Moved Temporarily\n";
+    public static final String HTTP_BAD_REQUEST = "400 Bad Request\n";
+    public static final String HTTP_UNAUTHORIZED = "401 Unauthorized\n";
+    public static final String HTTP_FORBIDDEN = "403 Forbidden\n";
+    public static final String HTTP_NOT_FOUND = "404 Not Found\n";
+    public static final String HTTP_NOT_ACCEPTABLE = "406 Not Acceptable\n";
+    public static final String HTTP_TIMEOUT = "408 Request Timeout\n";
+    public static final String HTTP_INTERNAL_ERROR = "500 Internal Server Error\n";
+    public static final String HTTP_NOT_IMPLEMENTED = "501 Not Implemented\n";
+    public static final String HTTP_UNAVAILABLE = "503 Service Unavailable\n";
+    public static final String HTTP_NOT_SUPPORTED = "505 HTTP Version Not Supported\n";
     private static HashMap<Integer, String> httpStatusCodes;
 
     public HttpStatus(){
@@ -36,9 +36,7 @@ public class HttpStatus {
         httpStatusCodes.put(505, HTTP_NOT_SUPPORTED);
     }
 
-    public HashMap<Integer, String> getHttpStatusCodes() {
-        return httpStatusCodes;
-    }
+    public HashMap<Integer, String> getHttpStatusCodes() { return httpStatusCodes; }
 
     public static void setHttpStatusCodes(HashMap<Integer, String> httpStatusCodes) {
         HttpStatus.httpStatusCodes = httpStatusCodes;

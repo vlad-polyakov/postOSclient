@@ -12,10 +12,6 @@ public class Response {
         this.statusCode = statusCode;
     }
 
-    public boolean isSuccess(int code){
-        return true;
-    }
-
     public int getStatusCode() {
         return statusCode;
     }

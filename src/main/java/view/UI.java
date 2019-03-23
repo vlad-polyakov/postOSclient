@@ -2,13 +2,12 @@ package view;
 
 
 import controller.Controller;
-import javafx.concurrent.Task;
-import javafx.scene.Scene;
+
 import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
+
 import model.Header;
 import service.Connector;
 import service.HttpMethod;
@@ -44,7 +43,7 @@ public class UI {
     public BorderPane createUI(){
         BorderPane root = new BorderPane();
         VBox bodyReq = new VBox();
-        header.setText("Connection: close");
+        header.setText("Connection: keep-alive");
         bodyReq.setSpacing(10);
         HBox urlBody = new HBox();
         urlBody.setSpacing(15);
@@ -60,8 +59,8 @@ public class UI {
             else if(post.isSelected()) method = httpMethod.POST();
             else if(head.isSelected()) method = httpMethod.HEAD();
             else return;
-            //new Thread(()->{controller.sendRequest(forReq.getText(),method);}).start();
-            controller.sendRequest(forReq.getText(),method);
+            new Thread(()->{controller.sendRequest(forReq.getText(),method);}).start();
+            //controller.sendRequest(forReq.getText(),method);
         });
         urlBody.getChildren().addAll(urlLabel, forReq, request);
         bodyReq.getChildren().addAll(httpReq, urlBody, methodsLabel, get, post, head, headerLabel, header, bodyLabel, scrollForBody, responseLabel, scrollForResponse);
@@ -69,7 +68,7 @@ public class UI {
         return root;
     }
 
-    public  Header getHeaderr(){
+    public Header getHeaderr(){
         return  this.headerr;
     }
 
@@ -97,8 +96,8 @@ public class UI {
 
     public void setResponseInfo(String responseStr){
          response.setText(responseStr);
-
     }
+
     public void showAlert(){
         Alert warn = new Alert(Alert.AlertType.INFORMATION);
         warn.setTitle("Warning!");

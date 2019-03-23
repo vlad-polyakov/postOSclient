@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 public class TransformURL {
     Pattern hostPattern = Pattern.compile("[-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]{2,256}\\.[a-z]{2,4}\\b");
     Pattern httpPattern = Pattern.compile("^(http://|https://)");
+    Pattern hhtpLocal = Pattern.compile("localhost\\/devstudy");
     Pattern responseCodePattern = Pattern.compile("[0-9]{3}");
 
     public String editHost(String host) {
@@ -19,7 +20,8 @@ public class TransformURL {
 
     public boolean checkHost(String host) {
         Matcher hostMatcher = hostPattern.matcher(host);
-        if (hostMatcher.find())
+        Matcher localMatcher = hhtpLocal.matcher(host);
+        if (hostMatcher.find()||localMatcher.find())
             return true;
         else return false;
     }

@@ -1,6 +1,8 @@
 package service;
 
 import controller.Controller;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.*;
 import java.net.InetAddress;
@@ -11,6 +13,7 @@ public class Connector {
     private PrintWriter writer;
     private BufferedReader reader;
     private final int port = 80;
+    private Logger logger = LogManager.getLogger(Connector.class);
 
     public String sendRequest(String host, String request, String headers)  {
         try {
@@ -33,6 +36,7 @@ public class Connector {
             return response.toString();
         }
         catch (IOException e){
+            logger.error(e.getMessage());
             return e.getMessage();
         }
     }
