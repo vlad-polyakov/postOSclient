@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class TransformURL {
-    Pattern hostPattern = Pattern.compile("[-a-zA-Z0-9@:%_\\+.~#?&\\/\\/=]{2,256}\\.[a-z]{2,4}\\b");
+    Pattern hostPattern = Pattern.compile("^(http:\\/\\/www\\.|https:\\/\\/www\\.|http:\\/\\/|https:\\/\\/)?[a-z0-9]+([\\-\\.]{1}[a-z0-9]+)*\\.[a-z]{2,5}|localhost:[0-9]{4}");
     Pattern httpPattern = Pattern.compile("^(http://|https://)");
     Pattern responseCodePattern = Pattern.compile("[0-9]{3}");
 

@@ -18,7 +18,6 @@ public class Connector {
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
             writer.println(request);
-
             writer.println(headers);
             writer.println("");
             StringBuilder response = new StringBuilder();
