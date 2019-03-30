@@ -20,7 +20,7 @@ public class UI {
     private Button request = new Button("Send");
     private Label methodsLabel = new Label("HTTP Methods");
     private Connector connector = new Connector();
-    private Header headerr = new Header();
+    //private Header headerr = new Header();
     private Controller controller = new Controller(this);
     ToggleGroup group = new ToggleGroup();
     private RadioButton get = new RadioButton("GET");
@@ -54,12 +54,13 @@ public class UI {
         head.setToggleGroup(group);
         request.setOnAction(event -> {
             String method;
-            getHeaders();
+            //getHeaders();
+            String headerStr = header.getText();
             if(get.isSelected()) method = httpMethod.GET();
             else if(post.isSelected()) method = httpMethod.POST();
             else if(head.isSelected()) method = httpMethod.HEAD();
             else return;
-            new Thread(()->{controller.sendRequest(forReq.getText(),method);}).start();
+            new Thread(()->{controller.sendRequest(forReq.getText(),method,headerStr);}).start();
             //controller.sendRequest(forReq.getText(),method);
         });
         urlBody.getChildren().addAll(urlLabel, forReq, request);
@@ -68,31 +69,12 @@ public class UI {
         return root;
     }
 
-    public Header getHeaderr(){
-        return  this.headerr;
+    //public Header getHeaderr(){
+        //return  this.headerr;
+    //}
+    public void updateTextArea(){
+        response.setText("");
     }
-
-    public void getHeaders(){
-        String strHeader = header.getText();
-        String[] arrs = concatHeader(strHeader);
-        editHeaders(arrs);
-    }
-
-
-    public boolean editHeaders(String[] arr){
-        for (String str: arr){
-            String[] pair;
-            pair = str.split(":");
-            headerr.changeValueOfHeader(pair[0],pair[1]);
-        }
-        return true;
-    }
-
-    public static String[] concatHeader(String header){
-        String[] headers = header.split(";\\s");
-        return headers;
-    }
-
 
     public void setResponseInfo(String responseStr){
          response.setText(responseStr);
