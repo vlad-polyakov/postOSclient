@@ -53,6 +53,7 @@ public class UI {
         post.setToggleGroup(group);
         head.setToggleGroup(group);
         request.setOnAction(event -> {
+            updateTextArea();
             String method;
             //getHeaders();
             String headerStr = header.getText();
@@ -60,7 +61,11 @@ public class UI {
             else if(post.isSelected()) method = httpMethod.POST();
             else if(head.isSelected()) method = httpMethod.HEAD();
             else return;
-            new Thread(()->{controller.sendRequest(forReq.getText(),method,headerStr);}).start();
+            new Thread(()->{
+                String responseStr;
+                responseStr = controller.sendRequest(forReq.getText(),method,headerStr);
+                setResponseInfo(responseStr);
+            }).start();
             //controller.sendRequest(forReq.getText(),method);
         });
         urlBody.getChildren().addAll(urlLabel, forReq, request);

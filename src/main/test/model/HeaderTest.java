@@ -34,7 +34,8 @@ public class HeaderTest {
 
     @Test
     public void testSuccessFillingHeaders() {
-        Assert.assertEquals("", header.fillingHeaders());
+        header.changeValueOfHeader(Header.USER_AGENT, "23");
+        Assert.assertEquals("User-Agent: 23\n", header.fillingHeaders());
     }
 
     @Test
