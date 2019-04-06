@@ -27,6 +27,12 @@ public class TransformURLTest {
     }
 
     @Test
+    public void testSuccessCheckLocalHost() {
+        String host = "localhost:51265";
+        Assert.assertTrue(transformURL.checkHost(host));
+    }
+
+    @Test
     public void testFailCheckHost() {
         String host = "\\l;kl;\\java-online.ru^";
         Assert.assertFalse(transformURL.checkHost(host));

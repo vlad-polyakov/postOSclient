@@ -17,12 +17,11 @@ public class Controller {
     private TransformURL transformURL = new TransformURL();
     private Connector connector;
     private HttpStatus httpStatus;
-    private Logger logger = LogManager.getLogger(Controller.class);
+    //private Logger logger = LogManager.getLogger(Controller.class);
     private Header header = new Header();
 
     public Controller(UI ui) {
         this.ui = ui;
-        //transformURL = new TransformURL();
     }
 
     public Controller() {
@@ -39,8 +38,6 @@ public class Controller {
             addHost(url);
             responseStr = connector.sendRequest(transformURL.editHost(url), method, header.fillingHeaders());
             int code = transformURL.getStatusCodeFromResponse(responseStr);
-            //logger.info("FOR HOST " + transformURL.editHost(url) + " RESPONSE: " + code);
-            //System.out.println(httpStatus.getHttpStatusCodes().get(code));
         } else {
             ui.showAlert();
         }
@@ -48,11 +45,6 @@ public class Controller {
     }
 
     public boolean addHost(String url) {
-        /*String newUrl = transformURL.editHost(url);
-        if (!transformURL.checkHost(newUrl))
-            return false;
-        ui.getHeaderr().changeValueOfHeader("Host", newUrl);
-        return true;*/
         if (transformURL.checkHost(url)) {
             header.changeValueOfHeader("Host", transformURL.editHost(url));
             return true;

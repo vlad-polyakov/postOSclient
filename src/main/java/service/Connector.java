@@ -17,7 +17,7 @@ public class Connector {
 
     public String sendRequest(String host, String request, String headers)  {
         try {
-            socket = new Socket(InetAddress.getByName(host),port);
+            socket = new Socket(InetAddress.getByName(host),9292);
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
             writer.println(request);

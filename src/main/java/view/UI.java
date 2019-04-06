@@ -55,7 +55,6 @@ public class UI {
         request.setOnAction(event -> {
             updateTextArea();
             String method;
-            //getHeaders();
             String headerStr = header.getText();
             if(get.isSelected()) method = httpMethod.GET();
             else if(post.isSelected()) method = httpMethod.POST();
@@ -66,7 +65,6 @@ public class UI {
                 responseStr = controller.sendRequest(forReq.getText(),method,headerStr);
                 setResponseInfo(responseStr);
             }).start();
-            //controller.sendRequest(forReq.getText(),method);
         });
         urlBody.getChildren().addAll(urlLabel, forReq, request);
         bodyReq.getChildren().addAll(httpReq, urlBody, methodsLabel, get, post, head, headerLabel, header, bodyLabel, scrollForBody, responseLabel, scrollForResponse);
