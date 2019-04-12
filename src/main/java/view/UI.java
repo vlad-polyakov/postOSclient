@@ -8,7 +8,6 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
-import model.Header;
 import service.Connector;
 import service.HttpMethod;
 
@@ -72,9 +71,7 @@ public class UI {
         return root;
     }
 
-    //public Header getHeaderr(){
-        //return  this.headerr;
-    //}
+
     public void updateTextArea(){
         response.setText("");
     }

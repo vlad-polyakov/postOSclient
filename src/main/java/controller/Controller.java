@@ -17,7 +17,7 @@ public class Controller {
     private TransformURL transformURL = new TransformURL();
     private Connector connector;
     private HttpStatus httpStatus;
-    //private Logger logger = LogManager.getLogger(Controller.class);
+    private static Logger logger = LogManager.getLogger(Controller.class);
     private Header header = new Header();
 
     public Controller(UI ui) {
@@ -38,6 +38,7 @@ public class Controller {
             addHost(url);
             responseStr = connector.sendRequest(transformURL.editHost(url), method, header.fillingHeaders());
             int code = transformURL.getStatusCodeFromResponse(responseStr);
+            logger.info(responseStr);
         } else {
             ui.showAlert();
         }

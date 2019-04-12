@@ -1,6 +1,6 @@
 package service;
 
-import controller.Controller;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,15 +13,14 @@ public class Connector {
     private PrintWriter writer;
     private BufferedReader reader;
     private final int port = 80;
-    private Logger logger = LogManager.getLogger(Connector.class);
-
+    private static Logger logger = LogManager.getLogger(Connector.class);
+    //http://localhost:8080/
     public String sendRequest(String host, String request, String headers)  {
         try {
-            socket = new Socket(InetAddress.getByName(host),9292);
+            socket = new Socket(InetAddress.getByName(host),port);
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
             writer.println(request);
-
             writer.println(headers);
             writer.println("");
             StringBuilder response = new StringBuilder();

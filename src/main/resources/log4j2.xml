@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Properties>
+        <property name="pattern_for_file">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{5} - %msg%n
+        </property>
+        <property name="pattern_for_console">
+            %d{HH:mm:ss.SSS} [%t] %-5level %logger{5} - %msg%n
+        </property>
+    </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern_for_console}"/>
+        </Console>
+        <RollingFile
+                name="roll-by-size"
+                fileName="src/main/resources/logs/output.log"
+                filePattern="src/main/resources/logs/output.%i.log.zip"
+                ignoreExceptions="false">
+            <PatternLayout pattern="${pattern_for_file}"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="100 KB" />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="roll-by-size"/>
+        </Root>
+    </Loggers>
+</Configuration>
