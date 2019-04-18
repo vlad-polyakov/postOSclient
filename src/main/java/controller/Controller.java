@@ -5,14 +5,18 @@ import exception.HttpStatus;
 import model.Header;
 import model.Response;
 import service.Connector;
+import service.HttpMethod;
 import service.TransformURL;
 import view.UI;
+
+import java.net.URLEncoder;
 
 public class Controller {
     private UI ui;
     private TransformURL transformURL = new TransformURL();
     private Connector connector;
     private Response response;
+    private HttpMethod httpMethod = new HttpMethod();
     private HttpStatus httpStatus;
     private Header header = new Header();
 
@@ -21,7 +25,8 @@ public class Controller {
     }
     public Controller(){}
 
-    public void sendRequest(String url, String method, String headerStr) {
+    public void sendRequest(String url, String method, String headerStr,String data) {
+        String requestBody = "";
         connector = new Connector();
         header = new Header();
         ui.updateTextArea();
@@ -29,7 +34,12 @@ public class Controller {
         httpStatus = new HttpStatus();
         if (transformURL.checkHost(url)) {
             addHost(url);
-            String responseStr = connector.sendRequest(transformURL.editHost(url), method, header.fillingHeaders());
+            if(method.equals(httpMethod.POST())) {
+                 requestBody += "name=";
+                 requestBody+=data;
+                header.addPostHeaders(requestBody);
+            }
+            String responseStr = connector.sendRequest(transformURL.editHost(url), method, header.fillingHeaders(),requestBody);
             ui.setResponseInfo(responseStr);
             int code = transformURL.getStatusCodeFromResponse(responseStr);
             //System.out.println(httpStatus.getHttpStatusCodes().get(code));

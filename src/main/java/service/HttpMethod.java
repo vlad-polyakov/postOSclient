@@ -7,7 +7,7 @@ public class HttpMethod {
     }
 
     public String POST(){
-        return "POST / HTTP/1.1";
+        return "POST /add HTTP/1.1";
     }
 
     public String HEAD(){

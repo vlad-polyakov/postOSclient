@@ -44,7 +44,7 @@ public class UI {
     public BorderPane createUI(){
         BorderPane root = new BorderPane();
         VBox bodyReq = new VBox();
-        header.setText("Connection: close");
+        header.setText("Connection: keep-alive");
         bodyReq.setSpacing(10);
         HBox urlBody = new HBox();
         urlBody.setSpacing(15);
@@ -60,7 +60,7 @@ public class UI {
             else if(post.isSelected()) method = httpMethod.POST();
             else if(head.isSelected()) method = httpMethod.HEAD();
             else return;
-            new Thread(()->{controller.sendRequest(forReq.getText(),method,headerStr);}).start();
+            new Thread(()->{controller.sendRequest(forReq.getText(),method,headerStr,body.getText());}).start();
             //controller.sendRequest(forReq.getText(),method);
         });
         urlBody.getChildren().addAll(urlLabel, forReq, request);
