@@ -61,7 +61,7 @@ public class UI {
             else return;
             new Thread(()->{
                 String responseStr;
-                responseStr = controller.sendRequest(forReq.getText(),method,headerStr);
+                responseStr = controller.sendRequest(forReq.getText(),method,headerStr, body.getText());
                 setResponseInfo(responseStr);
             }).start();
         });

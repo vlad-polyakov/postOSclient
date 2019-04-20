@@ -21,7 +21,8 @@ public class ControllerTest {
         String method = "HEAD / HTTP/1.1";
         String url = "java-online.ru";
         String header = "Host:" + url + "\n";
-        Assert.assertNotEquals("", controller.sendRequest(url,method,header));
+        String data = "";
+        Assert.assertNotEquals("", controller.sendRequest(url,method,header, data));
     }
 
     @Test

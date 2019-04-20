@@ -7,22 +7,36 @@ import org.apache.logging.log4j.Logger;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 
 public class Connector {
     private Socket socket;
     private PrintWriter writer;
     private BufferedReader reader;
-    private final int port = 80;
+    //private final int port = 80;
+
     private static Logger logger = LogManager.getLogger(Connector.class);
-    //http://localhost:8080/
-    public String sendRequest(String host, String request, String headers)  {
+
+    public String sendRequest(String host, String request, String headers, String data)  {
         try {
-            socket = new Socket(InetAddress.getByName(host),port);
+            //String parameter = URLEncoder.encode("name=h","UTF-8");
+            //String parameter = URLEncoder.encode("name","UTF-8")+URLEncoder.encode("=", "UTF-8")+URLEncoder.encode("zhenya", "UTF-8");
+            //String parameter = "name=zhenya";
+            //byte[] post = parameter.getBytes(StandardCharsets.UTF_8);
+            //int postLength = parameter.length();
+            socket = new Socket(InetAddress.getByName(host),8787);
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
             writer.println(request);
+            if (!data.equals("")){
+                headers += "\n";
+                headers +=data;
+            }
+            logger.info(headers);
             writer.println(headers);
             writer.println("");
+            writer.flush();
             StringBuilder response = new StringBuilder();
             String str;
             while ((str = reader.readLine()) != null) {

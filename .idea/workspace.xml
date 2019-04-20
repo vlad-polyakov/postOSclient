@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4038e25e-a805-4a55-9953-55d5edddc050" name="Default Changelist" comment="adding full test">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="4038e25e-a805-4a55-9953-55d5edddc050" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Header.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Connector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/controller/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/exception/HttpStatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exception/HttpStatusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/model/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HeaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/service/HttpMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/HttpMethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/service/TransformURLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/TransformURLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logs/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logs/output.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HeaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Header.class" beforeDir="false" />
@@ -35,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/postOSclient$All_in_postOSclient.ic" NAME="All in postOSclient Coverage Results" MODIFIED="1554456826262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/postOSclient$All_in_postOSclient.ic" NAME="All in postOSclient Coverage Results" MODIFIED="1555707557885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/postOSclient$ControllerTest.ic" NAME="ControllerTest Coverage Results" MODIFIED="1554455819624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>controller.*</FILTER>
     </SUITE>
@@ -45,12 +41,12 @@
     <SUITE FILE_PATH="coverage/postOSclient$TransformURLTest.ic" NAME="TransformURLTest Coverage Results" MODIFIED="1552733757661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/postOSclient$Main.ic" NAME="Main Coverage Results" MODIFIED="1552732837443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/postOSclient$Main.ic" NAME="Main Coverage Results" MODIFIED="1555706886916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="189" />
+    <option name="myElementSize" value="96" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-277708290">
@@ -138,30 +134,32 @@
         <counts>
           <entry key="Git exclude file" value="1" />
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="41" />
-          <entry key="Log" value="1" />
+          <entry key="JAVA" value="49" />
+          <entry key="Log" value="2" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2233" />
+          <entry key="JAVA" value="3366" />
           <entry key="PLAIN_TEXT" value="34" />
           <entry key="Properties" value="25" />
           <entry key="RegExp" value="1" />
@@ -173,23 +171,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/HttpMethod.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Header.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="-251">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding>
-                <element signature="e#68#69#0" expanded="true" />
-                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#2131#2132#0" expanded="true" />
+                <element signature="e#2160#2161#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Header.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/controller/ControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="442">
+              <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,8 +198,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/Connector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="170">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,24 +208,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/TransformURLTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/TransformURL.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/model/HeaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="106">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1613#1614#0" expanded="true" />
+                <element signature="e#1669#1670#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#1786#1787#0" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
+                <element signature="e#2060#2061#0" expanded="true" />
+                <element signature="e#2138#2139#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -233,8 +238,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+            <state relative-caret-position="262">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -243,19 +248,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logs/output.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="129">
+              <caret line="1242" lean-forward="true" selection-start-line="1242" selection-end-line="1242" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logs/output.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-117">
+              <caret line="47" column="120" selection-start-line="47" selection-start-column="120" selection-end-line="47" selection-end-column="120" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -307,7 +315,6 @@
         <option value="$PROJECT_DIR$/src/main/test/service/HttpMethodTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/exception/HttpStatus.java" />
         <option value="$PROJECT_DIR$/src/main/test/exception/HttpStatusTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Header.java" />
         <option value="$PROJECT_DIR$/src/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/model/Request.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -317,11 +324,14 @@
         <option value="$PROJECT_DIR$/src/main/test/service/TransformURLTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/TransformURL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/UI.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/resources/log4j.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Header.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/UI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controller/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/HeaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/Connector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
       </list>
     </option>
   </component>
@@ -350,10 +360,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1110" />
-    <option name="height" value="870" />
+    <option name="x" value="-8" />
+    <option name="width" value="1260" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -486,6 +495,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="postOSclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="postOSclient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -498,11 +515,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555068159325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555737113339" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jse-io-http-server-11d6cc101f39f7dcb5aa0ab4fb8d27e98aa3d93c (1)/jsphikkiorg" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/postOsHttpClient" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -567,20 +584,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="postOSclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.ControllerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ControllerTest.testGetIsNotEmptyResponseInSendRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="postOSclient" />
       <extension name="coverage">
@@ -593,6 +596,20 @@
       <option name="MAIN_CLASS_NAME" value="controller.ControllerTest" />
       <option name="METHOD_NAME" value="testGetIsNotEmptyResponseInSendRequest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="postOSclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.HeaderTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -616,17 +633,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.All in postOSclient" />
-      <item itemvalue="JUnit.ControllerTest" />
       <item itemvalue="JUnit.ControllerTest.testGetIsNotEmptyResponseInSendRequest" />
       <item itemvalue="JUnit.TransformURLTest.testSuccessCheckLocalHost" />
+      <item itemvalue="JUnit.HeaderTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TransformURLTest.testSuccessCheckLocalHost" />
         <item itemvalue="JUnit.All in postOSclient" />
+        <item itemvalue="JUnit.HeaderTest" />
+        <item itemvalue="JUnit.TransformURLTest.testSuccessCheckLocalHost" />
         <item itemvalue="JUnit.ControllerTest.testGetIsNotEmptyResponseInSendRequest" />
-        <item itemvalue="JUnit.ControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -668,7 +685,10 @@
       <workItem from="1554874213731" duration="860000" />
       <workItem from="1554930137165" duration="1947000" />
       <workItem from="1555010029564" duration="3861000" />
-      <workItem from="1555059706063" duration="3615000" />
+      <workItem from="1555059706063" duration="4327000" />
+      <workItem from="1555130782475" duration="10407000" />
+      <workItem from="1555261083962" duration="369000" />
+      <workItem from="1555663448106" duration="4353000" />
     </task>
     <task id="LOCAL-00001" summary="add new tests">
       <created>1552733842392</created>
@@ -719,31 +739,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554532635796</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding full test">
+      <created>1555068240134</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555068240135</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_postOSclient - 2019.04.05 at 12h 15m 16s.xml">
-      <configuration name="All in postOSclient" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_postOSclient - 2019.04.05 at 12h 16m 29s.xml">
-      <configuration name="All in postOSclient" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTest - 2019.04.05 at 12h 16m 55s.xml">
-      <configuration name="ControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTest - 2019.04.05 at 12h 17m 37s.xml">
-      <configuration name="ControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTest_testGetIsNotEmptyResponseInSendRequest - 2019.04.05 at 12h 27m 39s.xml">
-      <configuration name="ControllerTest.testGetIsNotEmptyResponseInSendRequest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTest_testGetIsNotEmptyResponseInSendRequest - 2019.04.05 at 12h 29m 10s.xml">
-      <configuration name="ControllerTest.testGetIsNotEmptyResponseInSendRequest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTest_testGetIsNotEmptyResponseInSendRequest - 2019.04.05 at 12h 32m 47s.xml">
-      <configuration name="ControllerTest.testGetIsNotEmptyResponseInSendRequest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_postOSclient - 2019.04.05 at 12h 33m 30s.xml">
       <configuration name="All in postOSclient" configurationId="JUnit" />
     </history-entry>
@@ -753,9 +759,30 @@
     <history-entry file="TransformURLTest_testSuccessCheckLocalHost - 2019.04.05 at 18h 18m 25s.xml">
       <configuration name="TransformURLTest.testSuccessCheckLocalHost" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_postOSclient - 2019.04.19 at 23h 49m 31s.xml">
+      <configuration name="All in postOSclient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.04.19 at 23h 55m 54s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.04.19 at 23h 57m 07s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.04.19 at 23h 58m 18s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeaderTest - 2019.04.19 at 23h 59m 09s.xml">
+      <configuration name="HeaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_postOSclient - 2019.04.19 at 23h 59m 55s.xml">
+      <configuration name="All in postOSclient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_postOSclient - 2019.04.20 at 08h 00m 16s.xml">
+      <configuration name="All in postOSclient" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81211000" />
+    <option name="totallyTimeSpent" value="97052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,7 +797,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15100671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24966443" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -781,7 +808,7 @@
       <window_info anchor="bottom" id="Tool Output" order="1" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49932885" visible="true" weight="0.27375886" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49932885" visible="true" weight="0.25531915" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -791,8 +818,8 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49932885" weight="0.33049646" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32907802" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.3" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32829046" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.44161072" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -860,15 +887,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/service/Connector.java</url>
-          <line>19</line>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/Controller.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -886,30 +907,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Request.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Response.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/model/HeaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/TransformURLTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/controller/ControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -920,13 +917,6 @@
     <entry file="file://$PROJECT_DIR$/.git/info/exclude">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exception/HttpStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -935,10 +925,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/TransformURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/HttpMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="e#68#69#0" expanded="true" />
             <element signature="e#107#108#0" expanded="true" />
@@ -946,30 +943,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Header.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="459">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/TransformURL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/exception/HttpStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="714">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -983,16 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1000,27 +974,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/Connector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="262">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/TransformURLTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/controller/ControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/HeaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2138#2139#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logs/output.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="129">
+          <caret line="1242" lean-forward="true" selection-start-line="1242" selection-end-line="1242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#2131#2132#0" expanded="true" />
+            <element signature="e#2160#2161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="47" column="120" selection-start-line="47" selection-start-column="120" selection-end-line="47" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

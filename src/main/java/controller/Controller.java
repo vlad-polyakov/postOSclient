@@ -6,6 +6,7 @@ import model.Header;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import service.Connector;
+import service.HttpMethod;
 import service.TransformURL;
 import view.UI;
 
@@ -17,6 +18,7 @@ public class Controller {
     private TransformURL transformURL = new TransformURL();
     private Connector connector;
     private HttpStatus httpStatus;
+    private HttpMethod httpMethod = new HttpMethod();
     private static Logger logger = LogManager.getLogger(Controller.class);
     private Header header = new Header();
 
@@ -28,15 +30,22 @@ public class Controller {
 
     }
 
-    public String sendRequest(String url, String method, String headerStr) {
+    public String sendRequest(String url, String method, String headerStr, String data) {
         String responseStr="";
+        String requestBody="";
         connector = new Connector();
         header = new Header();
         getHeaders(headerStr);
         httpStatus = new HttpStatus();
         if (transformURL.checkHost(url)) {
             addHost(url);
-            responseStr = connector.sendRequest(transformURL.editHost(url), method, header.fillingHeaders());
+            if (method.equals(httpMethod.POST())){
+                requestBody+="name=";
+                requestBody += data;
+                header.addPostHeaders(requestBody);
+            }
+            logger.info(requestBody);
+            responseStr = connector.sendRequest(transformURL.editHost(url), method, header.fillingHeaders(), requestBody);
             int code = transformURL.getStatusCodeFromResponse(responseStr);
             logger.info(responseStr);
         } else {

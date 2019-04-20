@@ -6,3 +6,1411 @@ Vary: Accept-Encoding
 Content-Type: text/html;charset=UTF-8
 
 
+2019-04-13 08:05:48.431 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=E25B2153BEF7C7A1513C4B6F84B58B3D; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 164
+Date: Sat, 13 Apr 2019 05:05:28 GMT
+
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="/" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 08:07:23.748 [Thread-6] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=C438458423787C08C0BA87BD0B1CE026; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 13 Apr 2019 05:07:03 GMT
+
+
+2019-04-13 08:17:13.525 [Thread-7] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=4FBD09625BAC34B78E4A739E07068647; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 164
+Date: Sat, 13 Apr 2019 05:16:53 GMT
+
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="/" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 10:10:33.171 [Thread-8] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=F32C2B00C7CEF24E9A3ABC528FD2EF2D; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 164
+Date: Sat, 13 Apr 2019 07:10:13 GMT
+
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="/" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 10:13:59.924 [Thread-9] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=58D7EF4654520999EA0EC36E060C66AC; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 164
+Date: Sat, 13 Apr 2019 07:13:39 GMT
+
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="/" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 10:30:24.717 [Thread-10] INFO  controller.Controller - HTTP/1.1 404 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 1098
+Date: Sat, 13 Apr 2019 07:30:04 GMT
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 404 – Не найдено</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Не найдено</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> Not found</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 10:31:07.558 [Thread-11] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=421DC1890A408E0809A4021067EA5EE8; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 13 Apr 2019 07:30:47 GMT
+
+
+2019-04-13 10:31:33.304 [Thread-12] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=78E2392E2C41C81B0B3A8A828AB60F01; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 164
+Date: Sat, 13 Apr 2019 07:31:13 GMT
+
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="/" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 10:44:12.052 [Thread-13] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=BBD1A3C84249A81F4EE6961993A36FD1; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 164
+Date: Sat, 13 Apr 2019 07:43:52 GMT
+
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="/" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 10:59:15.258 [Thread-14] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=EC2F0F76520307BFFDBFFA922BEF15BE; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 168
+Date: Sat, 13 Apr 2019 07:58:55 GMT
+
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="hello" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 10:59:56.295 [Thread-15] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=F01D8D07E65A2E01D9F5BDEB4F3B5894; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 168
+Date: Sat, 13 Apr 2019 07:59:36 GMT
+
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="hello" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 11:41:56.118 [Thread-16] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=4120B56C6ACF546C39935180977CA453; Path=/; HttpOnly
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 163
+Date: Sat, 13 Apr 2019 08:41:36 GMT
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="/" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 11:45:42.621 [Thread-17] INFO  controller.Controller - HTTP/1.1 200 
+Set-Cookie: JSESSIONID=3466EBECAC87E71313FACF118C46F3AF; Path=/; HttpOnly
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 165
+Date: Sat, 13 Apr 2019 08:45:22 GMT
+
+
+<html>
+<body>
+<h2>Keep calm and do the post request!</h2>
+<form action="/hg" method="POST">
+  <button name="name" value="eugene">Ok</button>
+</form>
+</body>
+</html>
+
+2019-04-13 12:09:21.568 [Thread-18] INFO  controller.Controller - HTTP/1.1 200 
+Accept-Ranges: bytes
+ETag: W/"238-1555146532360"
+Last-Modified: Sat, 13 Apr 2019 09:08:52 GMT
+Content-Type: text/html
+Content-Length: 238
+Date: Sat, 13 Apr 2019 09:09:01 GMT
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>User Form</title>
+</head>
+<body>
+<form action="/" method="POST">
+  Name: <input name="username" />
+  <br><br>
+  <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
+
+2019-04-13 12:11:30.689 [Thread-19] INFO  controller.Controller - HTTP/1.1 200 
+Accept-Ranges: bytes
+ETag: W/"234-1555146652404"
+Last-Modified: Sat, 13 Apr 2019 09:10:52 GMT
+Content-Type: text/html
+Content-Length: 234
+Date: Sat, 13 Apr 2019 09:11:10 GMT
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>User Form</title>
+</head>
+<body>
+<form action="/" method="POST">
+  Name: <input name="name" />
+  <br><br>
+  <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
+
+2019-04-13 12:12:20.067 [Thread-20] INFO  controller.Controller - HTTP/1.1 200 
+Accept-Ranges: bytes
+ETag: W/"233-1555146705970"
+Last-Modified: Sat, 13 Apr 2019 09:11:45 GMT
+Content-Type: text/html
+Content-Length: 233
+Date: Sat, 13 Apr 2019 09:12:00 GMT
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>User Form</title>
+</head>
+<body>
+<form action="" method="POST">
+  Name: <input name="name" />
+  <br><br>
+  <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
+
+2019-04-13 12:14:17.403 [Thread-21] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 09:13:57 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+
+2019-04-13 12:18:08.390 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 09:18:08 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 09:18:08 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 12:19:20.956 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 09:19:00 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+
+2019-04-13 12:20:25.912 [Thread-6] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 13 Apr 2019 09:20:05 GMT
+
+
+2019-04-13 12:20:50.849 [Thread-7] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 152
+Date: Sat, 13 Apr 2019 09:20:30 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>Aaaaaaaaaaaaaaaaaaaa</h1>
+
+2019-04-13 13:28:27.979 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 10:28:27 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 10:28:27 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 13:29:09.324 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 10:29:09 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 10:29:09 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 13:37:17.359 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 10:37:17 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 10:37:17 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 13:43:07.447 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 10:43:07 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 10:43:07 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 13:45:19.511 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 10:45:19 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 10:45:19 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 13:46:46.809 [Thread-6] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 10:46:46 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 10:46:46 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 13:50:37.567 [Thread-7] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 10:50:37 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 10:50:37 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 13:56:49.668 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 10:56:49 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 10:56:49 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:05:04.469 [Thread-6] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 11:05:04 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:05:04 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:05:06.409 [Thread-7] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 11:05:06 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:05:06 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:06:21.310 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:06:21 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:06:21 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:06:44.537 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:06:44 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:06:44 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:07:10.225 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:07:10 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:07:10 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:08:06.729 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:08:06 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:08:06 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:08:35.380 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:08:35 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:08:35 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:08:50.259 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:08:50 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:08:50 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:09:06.563 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:09:06 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:09:06 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:09:23.466 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:09:23 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:09:23 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:10:13.169 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:09:53 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>
+
+2019-04-13 14:10:45.745 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:10:25 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>
+
+2019-04-13 14:13:26.111 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 13 Apr 2019 11:13:06 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>
+
+2019-04-13 14:13:59.140 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 11:13:59 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:13:59 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:15:22.871 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 11:15:02 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+
+2019-04-13 14:20:55.813 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 11:20:55 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:20:55 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:21:34.901 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 13 Apr 2019 11:21:34 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 13 Apr 2019 11:21:34 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:22:23.168 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:24:04.438 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:25:34.831 [Thread-5] INFO  controller.Controller - HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2387
+Date: Sat, 13 Apr 2019 11:25:34 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> The HTTP header line [name%3dh</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: The HTTP header line [name%3dh
+] does not conform to RFC 7230 and has been ignored.
+	org.apache.coyote.http11.Http11InputBuffer.skipLine(Http11InputBuffer.java:955)
+	org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:818)
+	org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:563)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:311)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:27:04.805 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:28:14.998 [Thread-6] INFO  controller.Controller - HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2387
+Date: Sat, 13 Apr 2019 11:28:14 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> The HTTP header line [name%3dh</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: The HTTP header line [name%3dh
+] does not conform to RFC 7230 and has been ignored.
+	org.apache.coyote.http11.Http11InputBuffer.skipLine(Http11InputBuffer.java:955)
+	org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:818)
+	org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:563)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:311)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:28:20.687 [Thread-7] INFO  controller.Controller - HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2387
+Date: Sat, 13 Apr 2019 11:28:20 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> The HTTP header line [name%3dh</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: The HTTP header line [name%3dh
+] does not conform to RFC 7230 and has been ignored.
+	org.apache.coyote.http11.Http11InputBuffer.skipLine(Http11InputBuffer.java:955)
+	org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:818)
+	org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:563)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:311)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-13 14:28:55.004 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:32:09.842 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:32:55.727 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:34:25.132 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:42:23.182 [Thread-5] ERROR service.Connector - Software caused connection abort: recv failed
+2019-04-13 14:42:34.333 [Thread-5] INFO  controller.Controller - Software caused connection abort: recv failed
+2019-04-13 14:57:02.087 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:57:31.294 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:58:18.360 [Thread-5] INFO  controller.Controller - 
+2019-04-13 14:59:39.706 [Thread-5] INFO  controller.Controller - 
+2019-04-13 15:00:54.207 [Thread-5] INFO  controller.Controller - 
+2019-04-19 23:49:10.741 [main] INFO  service.Connector - Host: java-online.ru
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2019-04-19 23:49:30.879 [main] INFO  controller.Controller - HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=DA4B462F228FAAFA41ADAD28D8B83ED8; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 19 Apr 2019 20:49:12 GMT
+
+
+2019-04-19 23:59:34.944 [main] INFO  service.Connector - Host: java-online.ru
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2019-04-19 23:59:55.028 [main] INFO  controller.Controller - HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=7F0D1DD3ED9915024C94792B74BE45C4; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 19 Apr 2019 20:59:36 GMT
+
+
+2019-04-20 07:59:55.730 [main] INFO  service.Connector - Host: java-online.ru
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2019-04-20 08:00:15.805 [main] INFO  controller.Controller - HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=C1FE71730E43DE621ADE179E0D7434FF; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Apr 2019 04:59:56 GMT
+
+
+2019-04-20 08:00:57.447 [Thread-5] ERROR service.Connector - Connection refused: connect
+2019-04-20 08:00:57.452 [Thread-5] INFO  controller.Controller - Connection refused: connect
+2019-04-20 08:01:34.690 [Thread-5] INFO  service.Connector - Host: localhost
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+12345
+2019-04-20 08:01:34.713 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 20 Apr 2019 05:01:34 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 20 Apr 2019 05:01:34 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-20 08:04:56.832 [Thread-5] INFO  service.Connector - Host: localhost
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+Content-Length: 12
+Content-Type: application/x-www-form-urlencoded
+
+asfasdf
+2019-04-20 08:05:16.855 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 20 Apr 2019 05:05:16 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 20 Apr 2019 05:05:16 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-20 08:08:14.895 [Thread-5] INFO  controller.Controller - name=dfsdfsf
+2019-04-20 08:08:14.905 [Thread-5] INFO  service.Connector - Host: localhost
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+Content-Length: 12
+Content-Type: application/x-www-form-urlencoded
+
+dfsdfsf
+2019-04-20 08:08:34.914 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 148
+Date: Sat, 20 Apr 2019 05:08:34 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         You did not entered username!
+		</body>
+</html>
+HTTP/1.1 400 
+Content-Type: text/html;charset=utf-8
+Content-Language: ru
+Content-Length: 2255
+Date: Sat, 20 Apr 2019 05:08:34 GMT
+Connection: close
+
+<!doctype html><html lang="ru"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Invalid character found in method name. HTTP method names must be tokens</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><p><b>Exception</b></p><pre>java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/9.0.17</h3></body></html>
+
+2019-04-20 08:08:54.312 [Thread-5] INFO  controller.Controller - name=asdfadf
+2019-04-20 08:08:54.318 [Thread-5] INFO  service.Connector - Host: localhost
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+Content-Length: 12
+Content-Type: application/x-www-form-urlencoded
+
+name=asdfadf
+2019-04-20 08:09:14.332 [Thread-5] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 187
+Date: Sat, 20 Apr 2019 05:08:54 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message</title>
+	</head>
+	<body>
+	         User is asdfadf.
+	         You successfully complete authorization.
+		</body>
+</html>
+
+2019-04-20 08:09:31.547 [Thread-6] INFO  controller.Controller - 
+2019-04-20 08:09:31.549 [Thread-6] INFO  service.Connector - Host: localhost
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2019-04-20 08:09:51.562 [Thread-6] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Content-Length: 140
+Date: Sat, 20 Apr 2019 05:09:31 GMT
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome message for get request</title>
+	</head>
+	<body>
+		</body>
+</html>
+<h1>You get!</h1>
+
+2019-04-20 08:11:13.739 [Thread-7] INFO  controller.Controller - 
+2019-04-20 08:11:13.741 [Thread-7] INFO  service.Connector - Host: localhost
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2019-04-20 08:11:33.755 [Thread-7] INFO  controller.Controller - HTTP/1.1 200 
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Apr 2019 05:11:13 GMT
+
+
