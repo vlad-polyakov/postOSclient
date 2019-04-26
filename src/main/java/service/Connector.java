@@ -23,7 +23,7 @@ public class Connector{
             //byte[] post = parameter.getBytes(StandardCharsets.UTF_8);
             //int postLength = parameter.length();
             System.out.println(host);
-            socket = new Socket(InetAddress.getByName(host),8080);
+            socket = new Socket(InetAddress.getByName(host),80);
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
             writer.println(request);
