@@ -2,14 +2,12 @@ package view;
 
 
 import controller.Controller;
-import javafx.concurrent.Task;
-import javafx.scene.Scene;
+
 import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
-import model.Header;
+
 import service.Connector;
 import service.HttpMethod;
 
@@ -22,7 +20,7 @@ public class UI {
     private Label methodsLabel = new Label("HTTP Methods");
     private Connector connector = new Connector();
     //private Header headerr = new Header();
-    private Controller controller = new Controller(this);
+     Controller controller = new Controller(this);
     ToggleGroup group = new ToggleGroup();
     private RadioButton get = new RadioButton("GET");
     private RadioButton post = new RadioButton("POST");
@@ -54,14 +52,19 @@ public class UI {
         post.setToggleGroup(group);
         head.setToggleGroup(group);
         request.setOnAction(event -> {
+            updateTextArea();
             String method;
             String headerStr = header.getText();
             if(get.isSelected()) method = httpMethod.GET();
             else if(post.isSelected()) method = httpMethod.POST();
             else if(head.isSelected()) method = httpMethod.HEAD();
             else return;
-            new Thread(()->{controller.sendRequest(forReq.getText(),method,headerStr,body.getText());}).start();
-            //controller.sendRequest(forReq.getText(),method);
+           new Thread(()->{
+
+                setResponseInfo(controller.sendRequest(forReq.getText(),method,headerStr));
+
+            }).start();
+            //setResponseInfo(controller.sendRequest(forReq.getText(),method,headerStr));
         });
         urlBody.getChildren().addAll(urlLabel, forReq, request);
         bodyReq.getChildren().addAll(httpReq, urlBody, methodsLabel, get, post, head, headerLabel, header, bodyLabel, scrollForBody, responseLabel, scrollForResponse);
@@ -70,17 +73,14 @@ public class UI {
     }
 
 
-
     public void updateTextArea(){
         response.setText("");
     }
 
-
-
     public void setResponseInfo(String responseStr){
          response.setText(responseStr);
-
     }
+
     public void showAlert(){
         Alert warn = new Alert(Alert.AlertType.INFORMATION);
         warn.setTitle("Warning!");

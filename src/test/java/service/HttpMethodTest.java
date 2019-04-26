@@ -21,7 +21,7 @@ public class HttpMethodTest {
 
     @Test
     public void testSuccessPOST() {
-        Assert.assertEquals("POST / HTTP/1.1", httpMethod.POST());
+        Assert.assertEquals("POST /add HTTP/1.1", httpMethod.POST());
     }
 
     @Test

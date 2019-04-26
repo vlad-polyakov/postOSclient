@@ -1,33 +1,38 @@
 package service;
 
-import controller.Controller;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.URLEncoder;
-
-public class Connector {
+import java.nio.charset.StandardCharsets;
+public class Connector{
     private Socket socket;
-    private HttpMethod httpMethod = new HttpMethod();
     private PrintWriter writer;
     private BufferedReader reader;
     //private final int port = 80;
+    private Logger logger = LogManager.getLogger(Connector.class);
 
-    public String sendRequest(String host, String request, String headers,String data)  {
+    public String sendRequest(String host, String request, String headers, String data)  {
         try {
+            //String parameter = URLEncoder.encode("name=h","UTF-8");
+            //String parameter = URLEncoder.encode("name","UTF-8")+URLEncoder.encode("=", "UTF-8")+URLEncoder.encode("zhenya", "UTF-8");
+            //String parameter = "name=zhenya";
+            //byte[] post = parameter.getBytes(StandardCharsets.UTF_8);
+            //int postLength = parameter.length();
+            System.out.println(host);
             socket = new Socket(InetAddress.getByName(host),8080);
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
             writer.println(request);
-            if(!data.equals("")) {
+            if (!data.equals("")){
                 headers += "\n";
-                headers += data;
+                headers +=data;
             }
-            System.out.println(headers);
+            logger.info(headers);
             writer.println(headers);
-
-
             writer.println("");
             writer.flush();
             StringBuilder response = new StringBuilder();
@@ -42,6 +47,7 @@ public class Connector {
             return response.toString();
         }
         catch (IOException e){
+            logger.error(e.getMessage());
             return e.getMessage();
         }
     }
