@@ -20,7 +20,6 @@ import java.util.regex.Pattern;
 
 public class Controller {
     private UI ui;
-    private Thread thread;
     private TransformURL transformURL = new TransformURL();
     private Connector connector;
     private HttpStatus httpStatus;
@@ -35,7 +34,9 @@ public class Controller {
     public String sendRequest(String url, String method, String headerStr) {
         String responseStr="";
         String requestBody="";
-        method = method.replace("/ ",transformURL.getContentFromUrl(url)+" ");
+       String content = transformURL.getContentFromUrl(url);
+       if(!content.equals(""))
+            method = method.replace("/ ",transformURL.getContentFromUrl(url)+" ");
         connector = new Connector();
         header = new Header();
         getHeaders(headerStr);
@@ -49,7 +50,7 @@ public class Controller {
                 header.addPostHeaders(requestBody);
             }*/
             logger.info(requestBody);
-            responseStr = connector.sendRequest(transformURL.editHost(url), method, header.fillingHeaders(), requestBody);
+            responseStr = connector.sendRequest(transformURL.editHost(url), method, header.fillingHeaders(), requestBody,content);
             int code = transformURL.getStatusCodeFromResponse(responseStr);
             downloadImages(transformURL.getImageStrFromUrl(responseStr),hostWithProtocol);
             logger.info(responseStr);

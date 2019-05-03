@@ -6,8 +6,8 @@ import org.apache.log4j.Logger;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
+
+
 public class Connector{
     private Socket socket;
     private PrintWriter writer;
@@ -15,18 +15,48 @@ public class Connector{
     //private final int port = 80;
     private Logger logger = LogManager.getLogger(Connector.class);
 
-    public String sendRequest(String host, String request, String headers, String data)  {
+    public String sendRequest(String host, String request, String headers, String data, String content)  {
         try {
-            //String parameter = URLEncoder.encode("name=h","UTF-8");
-            //String parameter = URLEncoder.encode("name","UTF-8")+URLEncoder.encode("=", "UTF-8")+URLEncoder.encode("zhenya", "UTF-8");
-            //String parameter = "name=zhenya";
-            //byte[] post = parameter.getBytes(StandardCharsets.UTF_8);
-            //int postLength = parameter.length();
             socket = new Socket(InetAddress.getByName(host), 80);
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             StringBuilder response = new StringBuilder();
             writer = new PrintWriter(socket.getOutputStream(), true);
-            if (!new TransformURL().isFileName(request)) {
+            if (new TransformURL().isFileName(request)) {
+                String fileName = new TransformURL().transformToImageName(content);
+                writer.println(request);
+                writer.println(headers);
+                writer.println("");
+                writer.flush();
+                final FileOutputStream fileOutputStream = new FileOutputStream(fileName);
+                final InputStream inputStream = socket.getInputStream();
+                ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                int count, offset;
+                byte[] buffer = new byte[2048];
+                boolean eohFound = false;
+                while ((count = inputStream.read(buffer)) != -1)
+                {
+                    offset = 0;
+                    if(!eohFound){
+                        String string = new String(buffer, 0, count);
+                        int indexOfEOH = string.indexOf("\r\n\r\n");
+                        if(indexOfEOH != -1) {
+                            count = count-indexOfEOH-4;
+                            offset = indexOfEOH+4;
+                            baos.write(buffer,0,offset);
+                            byte[] dataByte = baos.toByteArray();
+                            response.append(new String(dataByte));
+                            eohFound = true;
+                        } else {
+                            count = 0;
+                        }
+                    }
+                    fileOutputStream.write(buffer, offset, count);
+                    fileOutputStream.flush();
+                }
+                inputStream.close();
+                fileOutputStream.close();
+            }
+            else {
 
                 writer.println(request);
                 if (!data.equals("")) {
@@ -38,46 +68,17 @@ public class Connector{
                 writer.println("");
                 writer.flush();
 
+
                 String str;
                 while ((str = reader.readLine()) != null) {
+                    System.out.println(str);
                     response.append(str + "\n");
                 }
             }
-            else {
-                writer.println(request);
-                writer.println(headers);
-                final FileOutputStream fileOutputStream = new FileOutputStream("test.jpg");
-                final InputStream inputStream = socket.getInputStream();
-
-                // Header end flag.
-                boolean headerEnded = false;
-
-                byte[] bytes = new byte[2048];
-                int length;
-                while ((length = inputStream.read(bytes)) != -1) {
-                    if (headerEnded)
-                        fileOutputStream.write(bytes, 0, length);
-
-                    else {
-                        for (int i = 0; i < 2045; i++) {
-                            if (bytes[i] == 13 && bytes[i + 1] == 10 && bytes[i + 2] == 13 && bytes[i + 3] == 10) {
-                                headerEnded = true;
-                                fileOutputStream.write(bytes, i+4 , 2048-i-4);
-                                break;
-                            }
-
-                        }
-                    }
-                }
-                inputStream.close();
-                fileOutputStream.close();
-                }
-
-
-
             writer.close();
             reader.close();
             socket.close();
+
 
             return response.toString();
         }
