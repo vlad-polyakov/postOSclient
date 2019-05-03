@@ -15,14 +15,19 @@ public class ControllerTest {
         controller = new Controller();
     }
 
-
     @Test
     public void testGetIsNotEmptyResponseInSendRequest() {
         String method = "HEAD / HTTP/1.1";
         String url = "java-online.ru";
         String header = "Host:" + url + "\n";
         String data = "";
-        Assert.assertNotEquals("", controller.sendRequest(url,method,header, data));
+        Assert.assertNotEquals("", controller.sendRequest(url,method,header,data));
+    }
+
+    @Test
+    public void testSuccessGetPortFromHost() {
+        String host = "localhost:5342";
+        Assert.assertEquals(5342,controller.getPortFromHost(host));
     }
 
     @Test

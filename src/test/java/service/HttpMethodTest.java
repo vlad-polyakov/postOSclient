@@ -3,6 +3,7 @@ package service;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import service.HttpMethod;
 
 import static org.junit.Assert.*;
 

@@ -37,6 +37,7 @@ public class UI {
 
     private  ScrollPane scrollForBody = new ScrollPane();
     private ScrollPane scrollForResponse = new ScrollPane();
+    private String text="";
 
     public UI(){}
     public BorderPane createUI(){
@@ -61,6 +62,8 @@ public class UI {
             else return;
             new Thread(()->{
                 String responseStr;
+                setResponseInfo("Client open connection\n\n");
+                setResponseInfo(method+"\n");
                 responseStr = controller.sendRequest(forReq.getText(),method,headerStr, body.getText());
                 setResponseInfo(responseStr);
             }).start();
@@ -77,7 +80,8 @@ public class UI {
     }
 
     public void setResponseInfo(String responseStr){
-         response.setText(responseStr);
+        text += responseStr;
+        response.setText(text);
     }
 
     public void showAlert(){
