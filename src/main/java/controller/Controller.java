@@ -35,7 +35,7 @@ public class Controller {
     public String sendRequest(String url, String method, String headerStr) {
         String responseStr="";
         String requestBody="";
-       // method = method.replace("/",transformURL.getContentFromUrl(url));
+        method = method.replace("/ ",transformURL.getContentFromUrl(url)+" ");
         connector = new Connector();
         header = new Header();
         getHeaders(headerStr);

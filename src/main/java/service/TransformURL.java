@@ -12,7 +12,7 @@ public class TransformURL {
     Pattern httpPattern = Pattern.compile("^(http://|https://)");
     Pattern responseCodePattern = Pattern.compile("[0-9]{3}");
     Pattern imageTagPattern = Pattern.compile("<img[^>]+>");
-    Pattern imageValuePattern = Pattern.compile("(?<=src=')(.*(jpg|jpeg|png|gif|svg))(?=')");
+    Pattern imageValuePattern = Pattern.compile(".*(jpg|jpeg|png|gif|svg)");
 
     public String editHost(String host) {
             Matcher httpMatcher = httpPattern.matcher(getHostWithProtocol(host));
@@ -52,6 +52,11 @@ public class TransformURL {
             }
         }
         return imagesList;
+    }
+    public boolean isFileName(String name){
+        Matcher imageValueMatcher = imageValuePattern.matcher(name);
+        if(imageValueMatcher.find()) return true;
+        else return false;
     }
     public String transformToImageName(String name){
         return name.replace("/",".");
